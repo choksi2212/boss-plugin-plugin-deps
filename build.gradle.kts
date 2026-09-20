@@ -11,7 +11,7 @@ group = "ai.rever.boss.plugin.dynamic"
 // 0.1.0: visual dependency graph of every loaded plugin - required/optional edges, cycle
 // detection, missing-dependency surfacing, and a "what would break if I uninstall X" view.
 // Ships a left_bottom sidebar panel and a plugin_deps_* MCP tool set.
-version = "0.1.0"
+version = "0.1.1"
 
 // CI sets CI=true and downloads the api jar; locally we use the sibling boss-plugin-api build.
 val useLocalDependencies = System.getenv("CI") != "true"
