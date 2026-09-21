@@ -51,6 +51,15 @@ state at the moment the agent called.
 
 Or copy the jar into `~/.boss/plugins/` and restart BOSS.
 
+### Building from source
+
+```bash
+./gradlew buildPluginJar -x test
+```
+
+The plugin jar is produced at `build/libs/boss-plugin-plugin-deps-0.1.0.jar`.
+`./gradlew build` runs the same task plus unit tests and reports.
+
 ## Compatibility
 
 - `boss-plugin-api` 1.0.93 or newer.
