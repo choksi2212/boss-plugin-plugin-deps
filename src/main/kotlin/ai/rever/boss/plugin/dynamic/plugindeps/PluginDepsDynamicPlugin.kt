@@ -23,7 +23,7 @@ class PluginDepsDynamicPlugin : DynamicPlugin {
         "Visual dependency graph of every loaded BOSS plugin - shows required/optional edges, " +
             "detects cycles, surfaces missing dependencies, and answers " +
             "\"what would break if I uninstall X\"."
-    override val author: String = "Choksi"
+    override val author: String = "choksi2212"
     override val url: String = "https://github.com/choksi2212/boss-plugin-plugin-deps"
 
     private var mcpProvider: PluginDepsMcpToolProvider? = null
