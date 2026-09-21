@@ -9,9 +9,12 @@
   "mainClass": "ai.rever.boss.plugin.dynamic.plugindeps.PluginDepsDynamicPlugin",
   "type": "mixed",
   "description": "Visual dependency graph of every loaded BOSS plugin - shows required/optional edges, detects cycles, surfaces missing dependencies, and answers 'what would break if I uninstall X'",
-  "author": "Choksi",
+  "author": "choksi2212",
   "url": "https://github.com/choksi2212/boss-plugin-plugin-deps",
-  "panel": { "position": "left_bottom", "priority": 72 },
+  "panel": {
+    "position": "left_bottom",
+    "priority": 72
+  },
   "sandbox": {
     "maxThreads": 4,
     "maxRestartAttempts": 3,
